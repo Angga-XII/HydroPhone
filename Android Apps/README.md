@@ -25,8 +25,8 @@ you can drag the slider into the flow rate you wanted and also choose to turn th
 after choosing the setting you wanted you can tap the submit button.
 
 
-<img src="tutorial%20images/link2.png" width="200">
-<img src="tutorial%20images/link1.png" width="200">
+<img src="tutorial%20images/link2.PNG" width="200">
+<img src="tutorial%20images/link1.PNG" width="200">
 
 
 If you want to change the http.get and http.post server, you can change this part part of the lib/constant.dart
