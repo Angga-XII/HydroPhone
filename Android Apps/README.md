@@ -4,6 +4,8 @@ Hydrophone is the Android (and possible implementation for IoS too) application 
 created using the Flutter UI Toolkit provided by google on Android Studio using [this](https://github.com/londonappbrewery/bmi-calculator-flutter) 
 as design base.
 
+## Getting Started
+
 <img src="tutorial%20images/opening_screen.png" width="200">
 
 
@@ -23,7 +25,13 @@ you can drag the slider into the flow rate you wanted and also choose to turn th
 after choosing the setting you wanted you can tap the submit button.
 
 
-## Getting Started
+<img src="tutorial%20images/link2.png" width="200"><img src="tutorial%20images/link1.png" width="200">
+
+
+If you want to change the http.get and http.post server, you can change this part part of the lib/constant.dart
+
+
+
 
 This project is a starting point for a Flutter application.
 
