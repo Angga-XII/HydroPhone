@@ -38,19 +38,17 @@ after changing the server also make sure that the body and headers in [this](lib
 body and headers from the services you used.
 
 
-<img src="tutorial%20images/getting%20json%20data.PNG">
+<img src="tutorial%20images/jsondata.PNG">
 
 
-you should also check and change [this]{lib/screens/dataPage_screen.dart} to mirror where exactly the data is stored.
+you should also check and change [this](lib/screens/dataPage_screen.dart) to mirror where exactly the data is stored.
 
 
-This project is a starting point for a Flutter application.
+<img src="tutorial%20images/jsondata_example.PNG">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+for example i'll be using a [json formatted data](https://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=439d4b804bc8187953eb36d2a8c26a02) 
+from OpenWeather Map Website. here the Update data function should be formatted like this
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src="tutorial%20images/getting_example.PNG">
