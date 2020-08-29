@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'file:///E:/Kuliah/misc/AndroidStudioApp/Hydroponic-flutter/lib/funcionality/constant.dart';
+import '../funcionality/constant.dart';
 import 'dataPage_screen.dart';
 
 class LoadingScreen extends StatefulWidget {
