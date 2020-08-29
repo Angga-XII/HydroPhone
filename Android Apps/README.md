@@ -1,6 +1,6 @@
 # hydrophone
 
-A new Flutter application.
+Hydrophone is the application for the IoT integrated Hydroponic system.
 
 ## Getting Started
 
