@@ -21,13 +21,22 @@ otherwise it will still show the last data. You can also swipe the screen from r
 <img src="tutorial%20images/input_screen.png" width="200">
 
 
-you can drag the slider into the flow rate you wanted and also choose to turn the lights on/off using the button,
+You can drag the slider into the flow rate you wanted and also choose to turn the lights on/off using the button,
 after choosing the setting you wanted you can tap the submit button.
 
 
-<img src="tutorial%20images/link.PNG">
+You can change the color and textstyle by editing the k..color or k..style in [this](lib/functionality/constant.dart).
+
+
+You can also change the overall layout or design by editing the ShowedData or Expanded widgets on [this](lib/screens/dataPage_screens.dart) 
+for the data screen or [this](lib/screens/inputPage_screen.dart) for the input screen.
+
+
+For a more indepth documentation of editing the layout and design you can refer to [this Flutter App Documentation](https://flutter.dev/docs). 
+
 
 ## Changing The Http Server
+<img src="tutorial%20images/link.PNG">
 
 
 If you want to change the http.get and http.post server, you can change this part part of the [this](lib/functionality/constant.dart)
