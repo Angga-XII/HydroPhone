@@ -28,14 +28,20 @@ after choosing the setting you wanted you can tap the submit button.
 <img src="tutorial%20images/link.PNG">
 
 
-If you want to change the http.get and http.post server, you can change this part part of the [this](lib/constant.dart)
+If you want to change the http.get and http.post server, you can change this part part of the [this](lib/functionality/constant.dart)
 
 
 <img src="tutorial%20images/body_and_headers.PNG">
-after changing the server also make sure that the body and headers in [this](lib/networking.dart) are the same as the 
+
+
+after changing the server also make sure that the body and headers in [this](lib/functionality/networking.dart) are the same as the 
 body and headers from the services you used.
 
 
+<img src="tutorial%20images/getting%20json%20data.PNG.PNG">
+
+
+you should also check and change [this]{lib/screens/dataPage_screen.dart} to mirror where exactly the data is stored.
 
 
 This project is a starting point for a Flutter application.
