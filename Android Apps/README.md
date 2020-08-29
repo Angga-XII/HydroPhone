@@ -25,11 +25,15 @@ you can drag the slider into the flow rate you wanted and also choose to turn th
 after choosing the setting you wanted you can tap the submit button.
 
 
-<img src="tutorial%20images/link2.PNG">
 <img src="tutorial%20images/link.PNG">
 
 
-If you want to change the http.get and http.post server, you can change this part part of the lib/constant.dart
+If you want to change the http.get and http.post server, you can change this part part of the [this](lib/constant.dart)
+
+
+<img src="tutorial%20images/body_and_headers.PNG">
+after changing the server also make sure that the body and headers in [this](lib/networking.dart) are the same as the 
+body and headers from the services you used.
 
 
 
