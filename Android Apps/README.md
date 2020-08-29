@@ -27,6 +27,8 @@ after choosing the setting you wanted you can tap the submit button.
 
 <img src="tutorial%20images/link.PNG">
 
+## Changing The Http Server
+
 
 If you want to change the http.get and http.post server, you can change this part part of the [this](lib/functionality/constant.dart)
 
@@ -48,7 +50,11 @@ you should also check and change [this](lib/screens/dataPage_screen.dart) to mir
 
 
 for example i'll be using a [json formatted data](https://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=439d4b804bc8187953eb36d2a8c26a02) 
-from OpenWeather Map Website. here the Update data function should be formatted like this
+from OpenWeather Map Website.
 
 
 <img src="tutorial%20images/getting_example.PNG">
+
+
+in this case the data should be formatted like this, notice the [0] is because the "description" is contained within an array 
+of array [{..,"description",..}]
