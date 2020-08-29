@@ -3,7 +3,7 @@
 Hydrophone is the Android (and possible implementation for IoS too) application for the IoT integrated Hydroponic system 
 created using the Flutter UI Toolkit provided by google on Android Studio.
 
-![Screen](tutorial%20images/opening_screen.png=100x20){ width=50% }
+<img src="tutorial%20images/opening_screen.png" width="200">
 
 ## Getting Started
 
