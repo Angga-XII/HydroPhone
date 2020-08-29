@@ -1,8 +1,9 @@
 # Hydrophone
 
 Hydrophone is the Android (and possible implementation for IoS too) application for the IoT integrated Hydroponic system 
-created using the Flutter UI Toolkit provided by google on Android Studio using [this](https://github.com/londonappbrewery/bmi-calculator-flutter) 
-as design base.
+created using the Flutter UI Toolkit provided by google on Android Studio based on the design of [this](https://github.com/londonappbrewery/bmi-calculator-flutter).
+app
+
 
 ## Getting Started
 
@@ -32,7 +33,7 @@ You can also change the overall layout or design by editing the ShowedData or Ex
 for the data screen or [this](lib/screens/inputPage_screen.dart) for the input screen.
 
 
-For a more indepth documentation of editing the layout and design you can refer to [this Flutter App Documentation](https://flutter.dev/docs). 
+For a more in-depth documentation of editing the layout and design of a Flutter app you can refer to [this Flutter App Documentation](https://flutter.dev/docs). 
 
 
 ## Changing The Http Server
@@ -66,4 +67,4 @@ from OpenWeather Map Website.
 
 
 in this case the data should be formatted like this, notice the [0] is because the "description" is contained within an array 
-of array [{..,"description",..}]
+of array ("Weather" : [ {..,"description",..} ]) while "lon" is contained within an array ("coord": [ {..,"lon",..}] ).
