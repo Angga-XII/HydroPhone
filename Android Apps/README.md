@@ -38,7 +38,7 @@ after changing the server also make sure that the body and headers in [this](lib
 body and headers from the services you used.
 
 
-<img src="tutorial%20images/getting%20json%20data.PNG.PNG">
+<img src="tutorial%20images/getting%20json%20data.PNG">
 
 
 you should also check and change [this]{lib/screens/dataPage_screen.dart} to mirror where exactly the data is stored.
